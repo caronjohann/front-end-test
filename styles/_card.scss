@@ -1,4 +1,4 @@
-// Card Styling
+// Card styling
 .card {
   @include flexCenter();
   flex-direction: column;
@@ -6,7 +6,7 @@
   box-shadow: rgba(0, 0, 0, 0.144) 0px 0px 5px;
   border-radius: 5px;
   transition: all 0.3s ease;
-  // Thumbnail Styling
+  // Thumbnail styling
   .image {
     position: relative;
     .cart-icon {
@@ -33,7 +33,7 @@
       width: 100%;
       transition: all 0.3s ease;
     }
-    // Button Styling
+    // Button styling
     .button {
       position: absolute;
       top: 50%;
@@ -50,7 +50,7 @@
       z-index: 2;
       transition: all 0.3s ease;
       cursor: pointer;
-      // Button Hover State
+      // Button hover state
       &:hover {
         background-color: $btnHoverColor;
       }
@@ -59,28 +59,28 @@
       display: none;
     }
   }
-  // Card Line
+  // Card line
   .line {
     width: 100%;
     border-top: 1px solid #e3e3e3;
     margin: 10px 0;
   }
-  // Card Title
+  // Card title
   .title {
     font-size: 13px;
     margin-bottom: 3px;
     color: $cardTitleColor;
   }
-  // Card Price
+  // Card price
   .price {
     font-size: 13px;
     color: $cardPriceColor;
   }
-  // Card Stars
+  // Card stars
   .star {
     width: 8px;
   }
-  // Card Hover States
+  // Card hover states
   &:hover {
     cursor: pointer;
     transform: translateY(-5px);

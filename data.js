@@ -1,3 +1,4 @@
+// Mock API data
 let cards = [
   {
     id: 01,

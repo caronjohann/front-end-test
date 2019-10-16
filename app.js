@@ -1,4 +1,4 @@
-// Using 'cards' from data.js as mock API data
+// Using 'cards' variable from data.js as mock API data
 
 let container = document.querySelector(".container");
 
@@ -30,11 +30,12 @@ container.innerHTML = cards
 
 let allCards = document.querySelectorAll(".card");
 
+// Using forEach function to go over all elements with '.card' class
 allCards.forEach(each => {
   let image = each.querySelector(".image");
   let button = image.querySelector(".show-btn");
   let cart = image.querySelector(".cart-icon");
-
+  // onClick function to toggle current button and cart icon
   button.onclick = function() {
     if (button.innerText === "Add to cart") {
       button.innerText = "Remove from cart";
